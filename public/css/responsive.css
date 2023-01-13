@@ -1,0 +1,15 @@
+/* Responsive Breakpoint Extra Small Devices*/
+@media screen and (max-width: 575px){
+}
+
+/* Responsive Breakpoint Small Devices*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* Responsive Breakpoint Medium Devices*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+}
+
+/* Responsive Breakpoint Large Devices*/
+@media screen and (min-width: 992px) {
+}

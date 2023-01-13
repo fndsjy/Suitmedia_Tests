@@ -1,0 +1,204 @@
+/* Header */
+:root {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #F1F3FF;
+}
+
+
+/* Navigation Bar */
+.navbar{
+    left: 0;
+    right: 0;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #FFF;
+}
+
+.navbar .navbar-brand{
+    padding-inline-start: 10em;
+    margin-inline-end: 27em;
+}
+
+.navbar .navbar-nav .nav-item:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.navbar .navbar-nav .nav-item .dropdown  ul{
+    display: none;
+    padding-left: 0;
+    left: 0;
+    margin-top: 15px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown:hover ul{
+    display: block;
+    position: absolute;
+}
+
+.navbar .navbar-nav .nav-item .dropdown ul{
+    background-color: #FFF;
+    list-style: none;
+}
+
+.navbar .navbar-nav .nav-item .dropdown ul .first-list{
+    padding: 1.5em 9em 1em 1em;
+}
+
+.navbar .navbar-nav .nav-item .dropdown ul .second-list{
+    width: 15em;
+    padding: 1em 2em 1em 1em;
+}
+
+.navbar .navbar-nav .nav-item .dropdown .first-list:hover{
+    background-color: rgb(233, 233, 233);
+    list-style: none;
+    padding: 1.5em 9em 1em 1em;
+}
+
+.navbar .navbar-nav .nav-item .dropdown .second-list:hover{
+    background-color: rgb(233, 233, 233);
+    list-style: none;
+    width: 15em;
+    padding: 1em 2em 1em 1em;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+}
+
+/* Header */
+.carousel-inner .item .carousel-img{
+    max-height: fit-content;
+    margin-top: 3.65em;
+}
+
+.carousel-inner .item .carousel-caption{
+    background-color: rgb(37, 37, 37);
+    opacity: .5;
+    filter: alpha(opacity=50);
+    font-weight: 900;
+    margin-bottom: 5em;
+    margin-inline-end: 16em;
+    margin-inline-start: -4.8em;
+    text-align: left;
+    padding-inline-start: 1em;
+}
+
+/* Our Values Section */
+#our-values .container-fluid{
+    max-width: 70em;
+    text-align: center;
+    color: white;
+}
+
+#our-values .container-fluid h3{
+    font-weight: bolder;
+    margin-block-start: 2em;
+    margin-block-end: .5em;
+    color: black;
+}
+
+#our-values .card .card-body img{
+    width: 1.7em;
+    height: 1.9em;
+    margin-block-start: 1em;
+    margin-block-end: .2em;
+}
+
+#our-values .card .card-body .card-title{
+    margin-block-end: .9em;
+    font-weight: bolder;
+}
+
+#our-values .card .card-body .card-text{
+    margin-block-end: 2.5em;
+}
+
+#our-values .red-triangle{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: solid 20px rgb(223, 87, 109);
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+    margin-inline-start: 21.2em;
+    margin-top: -8em;
+}
+
+#our-values .green-triangle{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: solid 20px rgb(119, 161, 77);
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+    margin-inline-start: 21.2em;
+    margin-top: -8em;
+}
+
+#our-values .card-innovative{
+    background-color: rgb(223, 87, 109);
+    border: 1px solid rgb(168, 11, 37);
+    border-radius: 0;
+}
+
+#our-values .card-loyalty{
+    background-color: rgb(119, 161, 77);
+    border: 1px solid rgb(64, 102, 26);
+    border-radius: 0;
+}
+
+#our-values .card-respect{
+    background-color: rgb(69, 191, 228);
+    border: 1px solid rgb(26, 92, 112);
+    border-radius: 0;
+}
+
+/* Contact Us Section */
+#contact-us .container-fluid{
+    max-width: 36em;
+}
+
+#contact-us .container-fluid h3{
+    font-weight: bolder;
+    margin-block-start: 3em;
+    margin-block-end: .5em;
+    text-align: center;
+}
+
+#contact-us .form-label{
+    font-weight: 500;
+}
+
+#contact-us .submit{
+    min-width: 100%;
+}
+
+/* Footer Section */
+#footer{
+    margin-block-start: 6em;
+    padding: 1.7em;
+    clear: both;
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+#footer img{
+    width: 2em;
+    height: 2.2em;
+    margin-inline-start: .7em;
+}
