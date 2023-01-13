@@ -7,3 +7,8 @@ Yarn Start
 ```
 
 If user haven't downloaded yarn yet, please add yarn first!
+
+### Domain
+```
+https://fendysanjaya-suitmedia.up.railway.app/ 
+```
